@@ -232,14 +232,14 @@ body {
     background-color: #9C81D2;
     padding: 19px 30px 18px;
     color: #fff;
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
 }
 .header-menu__item:hover {
     background-color: #8569BC;
     text-decoration: none;
 }
 .header-menu__item-text {
-    padding-right: 13px;
+    padding-right: 14px;
     font-weight: 500;
     font-size: 14px;
     color: #fff;
@@ -449,23 +449,23 @@ a.smallink {
     margin-bottom: 12px;
 }
 .user__name {
-    font-family: "Gotham", sans-serif;
-    font-weight: 800;
-    font-size: 10px;
+    font-family: "CeraPro", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
     line-height: 14px;
     margin-bottom: 4px;
 }
 .user__location {
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 7px;
+    font-size: 8px;
     line-height: 9px;
 }
 .compability {}
 .compability__title {
-    font-family: "Gotham", sans-serif;
-    font-weight: 800;
-    font-size: 7px;
+    font-family: "CeraPro", sans-serif;
+    font-weight: 700;
+    font-size: 8px;
     line-height: 9px;
     text-transform: uppercase;
 }
@@ -474,9 +474,9 @@ a.smallink {
     margin-left: -18px;
 }
 .compability__chart-title {
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 7px;
+    font-size: 8px;
     line-height: 1;
     margin-top: 7px;
 }
@@ -554,22 +554,22 @@ a.smallink {
     z-index: 100;
 }
 .user-profile__name {
-    font-family: "Gotham", sans-serif;
-    font-weight: 800;
-    font-size: 14px;
+    font-family: "CeraPro", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
     line-height: 18px;
     margin-bottom: 4px;
 }
 .user-profile__loc {
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 15px;
 }
 .user-profile__h4 {
-    font-family: "Gotham", sans-serif;
-    font-weight: 800;
-    font-size: 12px;
+    font-family: "CeraPro", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
     margin-bottom: 23px;
@@ -584,9 +584,9 @@ a.smallink {
     height: 50px;
 }
 .user-profile__chart-title {
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 18px;
     color: #71757A;
     text-align: center;
@@ -595,7 +595,7 @@ a.smallink {
 .user-profile__chart-title span {
     display: block;
     font-weight: 700;
-    color: #B67FC8;
+    color: #9C81D2;
 }
 .user-profile__text {
     margin-bottom: 44px;
@@ -743,7 +743,7 @@ textarea.form-control {
 }
 .custom-radio .custom-control-label {
     line-height: 1.6;
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
@@ -765,7 +765,7 @@ textarea.form-control {
     outline: none !important;
 }
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='%23B67FC8'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='4' fill='%239C81D2'/%3E%3C/svg%3E");
 }
 .custom-radio .custom-control-input:checked~.custom-control-label::before {
     border-color: #EFEFEF;
@@ -782,8 +782,8 @@ textarea.form-control {
     cursor: pointer;
 }
 .custom-switch .custom-control-label {
-    line-height: 1.8;
-    font-family: "Gotham", sans-serif;
+    line-height: 1.6;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
     font-size: 14px;
     cursor: pointer;
@@ -820,7 +820,7 @@ textarea.form-control {
     transition: transform .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-transform .15s ease-in-out;
 }
 .custom-switch .custom-control-input:checked~.custom-control-label::after {
-    background-color: #B67FC8;
+    background-color: #9C81D2;
     -webkit-transform: translateX(1.375rem);
     transform: translateX(1.375rem);
 }
