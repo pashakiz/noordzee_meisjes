@@ -63,8 +63,8 @@
         height: 26px;
     }
     .logo.logo_footer .logo__img {
-        width: 27px;
-        height: 25px;
+        width: 24px;
+        height: 24px;
         float: left;
         margin-right: 15px;
         margin-left: 0;
@@ -75,12 +75,16 @@
         width: 27px;
         height: 24px;
     }
+    .logo.logo_footer .logo__text {
+        font-size: 20px;
+        line-height: 1.2;
+    }
     .footer {
         padding: 37px 0;
         text-align: left;
     }
     .footer a.footer__lnk {
-        font-size: 14px;
+        font-size: 15px;
         color: #fff;
         padding-top: 6px;
         margin-top: 0;
@@ -217,7 +221,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     body {
-        font-size: 15px;
+        font-size: 16px;
     }
     .logo.logo_header .logo__img {
         background-image: url('../img/icons/logo-light.svg');
@@ -309,13 +313,11 @@
     }
     .content.main p {
         color: #686868;
-        font-size: 16px;
+        font-size: 17px;
         margin-bottom: 2rem;
     }
     h1 {
-        font-family: "Gotham", sans-serif;
-        font-weight: 800;
-        font-size: 24px;
+        font-size: 25px;
         color: #5A5A5A;
         margin: 0 0 45px;
     }
@@ -331,10 +333,15 @@
     .h1__circle2 {
         width: 6px;
         height: 6px;
+        margin: 0 10px;
     }
     .h1__circle3 {
         width: 7px;
         height: 7px;
+    }
+    .h1__text {
+        display: inline-block;
+        margin: 0 60px;
     }
     .h1__line:before {
         content: '';
