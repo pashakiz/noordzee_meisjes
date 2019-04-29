@@ -72,8 +72,6 @@
     }
     .logo.logo_header .logo__img {
         float: left;
-        width: 27px;
-        height: 24px;
     }
     .logo.logo_footer .logo__text {
         font-size: 20px;
@@ -96,6 +94,9 @@
         margin-top: 20px;
         float: right;
         width: auto;
+    }
+    .form-control {
+        font-size: 15px;
     }
     .login-form .form-control {
         min-width: 370px;
@@ -228,6 +229,7 @@
     }
     .logo.logo_header .logo__text {
         color: #FFF;
+        font-size: 20px;
     }
     .firstscreen.bg01 {
         background-image: url('../img/bg/main/01d.jpg');
@@ -256,6 +258,7 @@
     .firstscreen__block {
         padding: 0 0 0 85px;
         text-align: left;
+        min-width: 510px;
     }
     .content_bg.bg01 {
         background-image: url('../img/bg/signup/01d.jpg');
@@ -352,11 +355,11 @@
         margin: 0 auto 32px;
     }
     h2 {
-        font-size: 15px;
+        font-size: 16px;
         margin: 0 0 42px;
     }
     .h2-login {
-        font-size: 18px;
+        font-size: 19px;
         margin: 46px 0 87px;
     }
     p {
@@ -399,7 +402,7 @@
         margin-bottom: 2.4375rem;
     }
     a.smallink {
-        font-size: 13px;
+        font-size: 14px;
     }
     .custom-checkbox .custom-control-label {
         font-size: 15px;

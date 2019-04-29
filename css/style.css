@@ -147,6 +147,9 @@ body {
 .content_bg a.smallink {
     color: #fff;
 }
+.content_bg a.smallink:hover {
+    color: #9C81D2;
+}
 .content_bg .form-control {
     background-color: #fff;
 }
@@ -164,6 +167,7 @@ body {
     font-weight: 400;
     font-size: 22px;
     color: #fff;
+    letter-spacing: 1px;
 }
 .logo.logo_main {}
 .logo.logo_main .logo__img {
@@ -176,12 +180,14 @@ body {
     font-size: 25px;
 }
 .logo.logo_header .logo__img {
+    width: 25px;
+    height: 25px;
     float: left;
     background-image: url('../img/icons/logo-header.svg');
 }
 .logo.logo_header .logo__text {
-    color: #9864AA;
-    font-size: 20px;
+    color: #7C67A5;
+    font-size: 17px;
 }
 .logo.logo_footer {
     /*display: inline-block;*/
@@ -206,15 +212,15 @@ body {
     margin: 16px 0 23px;
 }
 .header-wrap {
-    background-color: #B67FC8;
+    background-color: #9C81D2;
 }
 .header {
-    background-color: #B67FC8;
+    background-color: #9C81D2;
     padding-top: 17px;
     padding-bottom: 18px;
 }
 .header__btn {
-    color: #9864AA;
+    color: #7C67A5;
     font-size: 20px;
     cursor: pointer;
 }
@@ -223,19 +229,19 @@ body {
 }
 .header-menu__item {
     display: block;
-    background-color: #B67FC8;
+    background-color: #9C81D2;
     padding: 19px 30px 18px;
     color: #fff;
     font-family: "Gotham", sans-serif;
 }
 .header-menu__item:hover {
-    background-color: #9563A5;
+    background-color: #8569BC;
     text-decoration: none;
 }
 .header-menu__item-text {
     padding-right: 13px;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
     color: #fff;
 }
 .header-wrap .notice {
@@ -243,9 +249,9 @@ body {
     background-color: #FFF;
     border-radius: 50%;
     color: #7A7A7A;
-    font-weight: 800;
-    font-size: 9px;
-    padding: 5px 4px;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 6px 4px;
     min-width: 19px;
     height: 19px;
     line-height: 1;
@@ -259,9 +265,9 @@ body {
 }
 .header-userinfo__text,
 a.header-userinfo__text {
-    font-family: "Gotham", sans-serif;
-    font-size: 14px;
-    font-weight: 500;
+    font-family: "CeraPro", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
     color: #fff;
     line-height: 1;
     position: relative;
@@ -317,15 +323,15 @@ h1 {
     display: none;
 }
 h2 {
-    font-family: "Gotham", sans-serif;
-    font-weight: 800;
-    font-size: 12px;
+    font-family: "CeraPro", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
     color: #71757A;
     margin: 0 0 40px;
     text-transform: uppercase;
 }
 .h2-login {
-    font-size: 13px;
+    font-size: 14px;
     margin: 10px 0 49px;
 }
 p {
@@ -353,11 +359,11 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #20A892;
+    color: #9C81D2;
     text-decoration: none;
 }
 a.smallink {
-    font-size: 12px;
+    font-size: 13px;
 }
 .collage {
     margin-bottom: 115px;
@@ -673,9 +679,9 @@ a.smallink {
     border-radius: 29px;
     padding: 1.325rem 1.625rem;
     color: #7A7A7A;
-    font-family: "Gothamt", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
 }
 .form-control:hover {
     background-color: #F2F2F2;
