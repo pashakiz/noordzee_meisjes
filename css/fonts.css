@@ -1,52 +1,41 @@
-/* font-family: "Gotham"; */
-/* font-family: "Thirthy"; */
+/* font-family: "CeraPro"; */
 @font-face {
-    font-family: "Thirthy"; /*Light*/
-    src: url("../fonts/Thirthy/Thirthy.eot");
-    src: url("../fonts/Thirthy/Thirthy.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Thirthy/Thirthy.woff") format("woff"),
-    url("../fonts/Thirthy/Thirthy.ttf") format("truetype"),
-    url("../fonts/Thirthy/Thirthy.svg#Thirthy") format("svg");
+    font-family: "CeraPro"; /*Light*/
+    src: url("../fonts/CeraPro/CeraPro-Light.eot");
+    src: url("../fonts/CeraPro/CeraPro-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CeraPro/CeraPro-Light.woff") format("woff"),
+    url("../fonts/CeraPro/CeraPro-Light.ttf") format("truetype"),
+    url("../fonts/CeraPro/CeraPro-Light.svg#CeraPro-Light") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "CeraPro"; /*Regular*/
+    src: url("../fonts/CeraPro/CeraPro-Regular.eot");
+    src: url("../fonts/CeraPro/CeraPro-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CeraPro/CeraPro-Regular.woff") format("woff"),
+    url("../fonts/CeraPro/CeraPro-Regular.ttf") format("truetype"),
+    url("../fonts/CeraPro/CeraPro-Regular.svg#CeraPro-Regular") format("svg");
     font-style: normal;
     font-weight: 400;
 }
 @font-face {
-    font-family: "Gotham"; /*Light*/
-    src: url("../fonts/Gotham/Gotham-Light.eot");
-    src: url("../fonts/Gotham/Gotham-Light.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Gotham/Gotham-Light.woff") format("woff"),
-    url("../fonts/Gotham/Gotham-Light.otf") format("opentype"),
-    url("../fonts/Gotham/Gotham-Light.svg#Gotham-Light") format("svg");
-    font-style: normal;
-    font-weight: 400;
-}
-@font-face {
-    font-family: "Gotham"; /*Medium*/
-    src: url("../fonts/Gotham/Gotham-Medium.eot");
-    src: url("../fonts/Gotham/Gotham-Medium.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Gotham/Gotham-Medium.woff") format("woff"),
-    url("../fonts/Gotham/Gotham-Medium.ttf") format("truetype"),
-    url("../fonts/Gotham/Gotham-Medium.svg#Gotham-Medium") format("svg");
+    font-family: "CeraPro"; /*Medium*/
+    src: url("../fonts/CeraPro/CeraPro-Medium.eot");
+    src: url("../fonts/CeraPro/CeraPro-Medium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CeraPro/CeraPro-Medium.woff") format("woff"),
+    url("../fonts/CeraPro/CeraPro-Medium.ttf") format("truetype"),
+    url("../fonts/CeraPro/CeraPro-Medium.svg#CeraPro-Medium") format("svg");
     font-style: normal;
     font-weight: 500;
 }
 @font-face {
-    font-family: "Gotham"; /*Bold*/
-    src: url("../fonts/Gotham/Gotham-Bold.eot");
-    src: url("../fonts/Gotham/Gotham-Bold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Gotham/Gotham-Bold.woff") format("woff"),
-    url("../fonts/Gotham/Gotham-Bold.otf") format("opentype"),
-    url("../fonts/Gotham/Gotham-Bold.svg#Gotham-Bold") format("svg");
+    font-family: "CeraPro"; /*Black*/
+    src: url("../fonts/CeraPro/CeraPro-Black.eot");
+    src: url("../fonts/CeraPro/CeraPro-Black.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CeraPro/CeraPro-Black.woff") format("woff"),
+    url("../fonts/CeraPro/CeraPro-Black.ttf") format("truetype"),
+    url("../fonts/CeraPro/CeraPro-Black.svg#CeraPro-Black") format("svg");
     font-style: normal;
     font-weight: 700;
-}
-@font-face {
-    font-family: "Gotham"; /*Black*/
-    src: url("../fonts/Gotham/Gotham-Black.eot");
-    src: url("../fonts/Gotham/Gotham-Black.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Gotham/Gotham-Black.woff") format("woff"),
-    url("../fonts/Gotham/Gotham-Black.otf") format("opentype"),
-    url("../fonts/Gotham/Gotham-Black.svg#Gotham-Black") format("svg");
-    font-style: normal;
-    font-weight: 800;
 }
