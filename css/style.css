@@ -344,7 +344,6 @@ p > b {
     font-weight: 500;
 }
 p.ph {
-    font-size: 13px;
     font-weight: 500;
     color: #606060;
     margin-bottom: 1rem;
@@ -704,9 +703,9 @@ textarea.form-control {
 }
 .custom-checkbox .custom-control-label {
     line-height: 1.6;
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     cursor: pointer;
 }
 .custom-checkbox .custom-control-label::before {
