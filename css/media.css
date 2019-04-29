@@ -41,6 +41,10 @@
     }
     .firstscreen__btn {
         width: 100%;
+        font-size: 18px;
+    }
+    .slogan {
+        font-size: 17px;
     }
     .btn-login {
         width: 100%;
@@ -275,7 +279,7 @@
         margin: 5px 20px 0 0;
     }
     .slogan {
-        font-size: 14px;
+        font-size: 17px;
         margin: 16px 0 30px;
     }
     .header {
@@ -314,6 +318,23 @@
         font-size: 24px;
         color: #5A5A5A;
         margin: 0 0 45px;
+    }
+    .h1__circle {
+        display: inline-block;
+        background-color: #AFAFAF;
+        border-radius: 15px;
+    }
+    .h1__circle1 {
+        width: 5px;
+        height: 5px;
+    }
+    .h1__circle2 {
+        width: 6px;
+        height: 6px;
+    }
+    .h1__circle3 {
+        width: 7px;
+        height: 7px;
     }
     .h1__line:before {
         content: '';

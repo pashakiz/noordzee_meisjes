@@ -160,7 +160,7 @@ body {
     margin-right: 15px;
 }
 .logo__text {
-    font-family: "Thirthy", sans-serif;
+    font-family: "MullerBlackItalic", sans-serif;
     font-weight: 400;
     font-size: 22px;
     color: #fff;
@@ -168,12 +168,12 @@ body {
 .logo.logo_main {}
 .logo.logo_main .logo__img {
     width: 45px;
-    height: 41px;
+    height: 44px;
     background-image: url('../img/icons/logo.svg');
     margin: 0 auto 8px;
 }
 .logo.logo_main .logo__text {
-    font-size: 32px;
+    font-size: 25px;
 }
 .logo.logo_header .logo__img {
     float: left;
@@ -198,9 +198,9 @@ body {
     color: #A2A2A2;
 }
 .slogan {
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
     margin: 16px 0 23px;
 }
@@ -308,6 +308,9 @@ h1 {
     color: #71757A;
     margin: 0 0 30px;
     text-align: center;
+}
+.h1__circle {
+    display: none;
 }
 .h1__line:before {
     display: none;
@@ -875,9 +878,9 @@ textarea.form-control {
     text-transform: uppercase;
     border-radius: 30px;
     padding: 1.063rem 1.225rem;
-    font-family: "Gotham", sans-serif;
+    font-family: "CeraPro", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
 }
 .btn:focus {
@@ -886,11 +889,11 @@ textarea.form-control {
 }
 .btn1 {
     color: #fff;
-    background-color: #B67FC8;
+    background-color: #9C81D2;
 }
 .btn1:hover {
     color: #fff;
-    background-color: #9563A5;
+    background-color: #8569BC;
 }
 .btn2 {
     color: #fff;
@@ -928,6 +931,6 @@ textarea.form-control {
     padding: .407rem 1rem;
 }
 .firstscreen__btn {
-    font-size: 16px;
+    font-size: 15px;
 }
 /*----------------------------------------------------------------------------------------------------*/

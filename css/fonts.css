@@ -1,13 +1,14 @@
 /* font-family: "CeraPro"; */
+/* font-family: "MullerBlackItalic"; */
 @font-face {
-    font-family: "CeraPro"; /*Light*/
-    src: url("../fonts/CeraPro/CeraPro-Light.eot");
-    src: url("../fonts/CeraPro/CeraPro-Light.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/CeraPro/CeraPro-Light.woff") format("woff"),
-    url("../fonts/CeraPro/CeraPro-Light.ttf") format("truetype"),
-    url("../fonts/CeraPro/CeraPro-Light.svg#CeraPro-Light") format("svg");
-    font-style: normal;
-    font-weight: 300;
+    font-family: "MullerBlackItalic"; /*Regular*/
+    src: url("../fonts/MullerBlackItalic/MullerBlackItalic.eot");
+    src: url("../fonts/MullerBlackItalic/MullerBlackItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MullerBlackItalic/MullerBlackItalic.woff") format("woff"),
+    url("../fonts/MullerBlackItalic/MullerBlackItalic.otf") format("opentype"),
+    url("../fonts/MullerBlackItalic/MullerBlackItalic.svg#MullerBlackItalic") format("svg");
+    font-style: italic;
+    font-weight: 400;
 }
 @font-face {
     font-family: "CeraPro"; /*Regular*/
